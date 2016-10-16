@@ -1275,8 +1275,8 @@ and (max-width: 480px)	{
 									font-size: 0.84em; /* the em is calculated from the h3 element */
 									}
 	#profile img#avatar	{
-				height: 96px;
-    				width: 96px;
+				height: 86px;
+    				width: 86px;
 				}
 	
 	#profile h1	{
@@ -1284,12 +1284,12 @@ and (max-width: 480px)	{
 			}
 				
 	#profile h2	{
-    			font-size: 17pt;
+    			font-size: 16pt;
 			}
 
 	#profile p	{
     			font-size: 13pt;
-    			line-height: 1.1em;
+    			line-height: 1em;
 			}
 	
 	#active	{
@@ -1297,8 +1297,8 @@ and (max-width: 480px)	{
 			}
 
 		#active label + label	{
-								margin-left: 2vw;	
-								}
+					margin-left: 5vw;	
+					}
 
 	#tangledp2p  .screencollage.three a:nth-child(1):after	{
 															right: 10px;
