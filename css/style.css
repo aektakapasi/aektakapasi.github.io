@@ -1275,12 +1275,12 @@ and (max-width: 480px)	{
 									font-size: 0.84em; /* the em is calculated from the h3 element */
 									}
 	#profile img#avatar	{
-				height: 86px;
-    				width: 86px;
-				}
+						height: 80px;
+    					width: 80px;
+						}
 	
 	#profile h1	{
-    			font-size: 24pt;
+    			font-size: 23pt;
 			}
 				
 	#profile h2	{
