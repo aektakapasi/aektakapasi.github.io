@@ -170,7 +170,7 @@
 /* Selection Color */
 	/* Safari */
 	::selection	{
-				background: #69635F; 
+				background: #69635F;
 				color: #FFFFFF;
 				}
 
@@ -201,211 +201,7 @@
 									background-color: #69635F;
 									border: none;
 									}
-                  
-/* Typography */
-	* 	{
-		font-family: 'Roboto', 'Roboto-Light', Arial, Helvetica, sans-serif !important;
-		font-weight: 300;
-		color: #4C4743;
-		}
 
-	html	{
-			font-size: 22px; /* Use to set size of 1em */
-			}
-			
-	h1 	{
-		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 2.5em; 
-		text-align: center;
-		text-transform: uppercase;
-		margin-bottom: 4px;
-		}
-	
-	h2 	{
-		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 1.75em;
-		color: #9C958F;
-		line-height: ;
-		text-align: center;
-		margin: ;
-		}
-	
-	h3 	{
-		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 2.6em;
-		text-align: center;
-		text-transform: uppercase;
-		margin: 4px 0;
-		}
-		
-	h4 	{
-		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 1.5em;
-		text-align: center;
-		text-transform: uppercase;
-		margin: 4vw 0;
-		}			
-
-		h2 + h4	{
-				font-size: 1.15em;
-				color: #9C958F;
-				margin: 4px 0 0;
-				}
-
-	h5 	{
-		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 1.15em;
-		color: #9C958F;
-		text-align: center;
-		margin: 6px;
-		}
-		
-	h6 	{
-		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 2em;
-		text-align: left;
-		text-transform: uppercase;
-		margin: 48px 0 0;
-		}
-		
-		h6.h7	{
-				font-size: 1.6em;
-				margin: 40px 0 0;
-				}
-
-		h6.h8	{
-				font-size: 1.35em; 
-				margin: 1em 0 0 1em;
-				}
-		
-	p 	{
-		font-size: 1.35em;
-		line-height: 1.2em;
-		margin: 1em 0 1em;
-		text-align: left;
-		}
-
-	span 	{
-			font-size: 1.35em;
-			margin: ;
-			}
-		
-	small 	{
-			font-size: 1em;
-			margin: 0.5em 0;
-			display: block;
-			text-align: left;
-			}
-
-	/* Links */
-		a,
-		a:link 	{
-				text-decoration: ;
-				}
-			
-		a:visited 	{
-					color: ;
-					text-decoration: ;
-					}
-
-		a:hover 	{
-					color: #9C958F;
-					text-decoration: ;
-					}
-			
-		a:active 	{
-					color: ;
-					text-decoration: ;
-					}					
-
-
-	/* Lists */
-		li 	{
-			font-size: 1.35em;
-			line-height: 1.2em;
-			}
-
-		ul li	{
-				margin: 0.5em 0 0.5em 1em;
-				list-style: disc; 
-				list-style-position: outside;
-				}
-				
-			ul li:first-child	{
-						margin: 1em 0 0.5em 1em; 
-						}
-		
-		ol li	{
-				margin: 1em 0 1em 1em;
-				list-style: decimal;
-				list-style-position: outside; 
-				}
-		
-		h6 + ul,
-		h6 + ol	{
-			margin: 1em 0;
-			}
-
-		ol ul li	{
-					margin: 0.5em 0 0.5em 2em; 
-					list-style: disc; 
-					list-style-position: outside;
-					}
-					
-			ol ul li:first-child	{
-						margin: 1em 0 0.5em 2em;
-						}                  
-                  
-/* Body Structure */
-	body	{
-		}
-			
-	#container	{
-			:;
-			}
-
-	#content	{
-			}
-
-	#profile	{
-				text-align: center;
-				padding: 0 0 16px;
-				}
-				
-	.carousel	{
-				position: relative; /* Used to make z-index work */
-				z-index: 2; 
-				}
-
-/* Profile */						
-	#profile  img#avatar	{
-							border-radius: 50%;
-							-webkit-border-radius: 50%;
-							-moz-border-radius: 50%;
-							height: 106px;
-							width: 106px;
-							margin: 8px;
-							border: 4px solid #FFFFFF;
-							box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
-										inset 0 0 12px 0px rgba(40,40,40,0.2);
-							-webkit-box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
-										inset 0 0 12px 0px rgba(40,40,40,0.2);
-							-moz-box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
-										inset 0 0 12px 0px rgba(40,40,40,0.2);
-							}
-
-	#profile h1	{
-				font-size: 30pt; /* Use to make the profile text a fixed size for all media queries */
-				}	
-	
-	#profile h2	{
-				font-size: 21pt; /* Use to make the profile text a fixed size for all media queries */
-				}
-				
-	#profile p	{
-				font-size: 15pt; /* Use to make the profile text a fixed size for all media queries */
-				margin: 4px auto 0;
-				max-width: 616px;
 /* Typography */
 	* 	{
 		font-family: 'Roboto', 'Roboto-Light', Arial, Helvetica, sans-serif !important;
@@ -436,16 +232,17 @@
 	
 	h3 	{
 		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 2.6em; 
+		font-size: 2.6em; /* 2.25em */ 
 		text-align: center;
 		text-transform: uppercase;
 		margin: 4px 0; 
 		}
 
 		#tangledp2pheading h3 span	{
-						font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-						font-size: 1em; /* the em is calculated from the h3 element */
-						}
+									
+									font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+									font-size: 1em; /* the em is calculated from the h3 element */
+									}
 		
 	h4 	{
 		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
@@ -471,19 +268,19 @@
 		
 	h6 	{
 		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-		font-size: 1.8em; 
+		font-size: 1.8em; /* 1.5em */ 
 		text-align: left;
 		text-transform: uppercase;
-		margin: 64px 0 0; 
+		margin: 64px 0 0; /* 48px 0 0 */
 		}
 		
 		h6.h7	{
-				font-size: 1.5em;
+				font-size: 1.5em; /* 1.3em */
 				margin: 40px 0 0;
 				}
 
 		h6.h8	{
-				font-size: 1.1em; 
+				font-size: 1.1em; /* 1.35em */
 				margin: 1em 0 -0.25em 2.8em;
 				}
 		
@@ -557,7 +354,7 @@
 					}
 
 		ol ul li	{
-					font-size: 1.1em;
+					font-size: 1.1em; /* 1.35em */
 					margin: 0.5em 2em 0.5em 4em;
 					list-style: disc;
 					list-style-position: outside;
@@ -597,7 +394,7 @@
 							height: 106px;
 							width: 106px;
 							margin: 8px;
-							border: 4px solid #FFFFFF; 
+							border: 4px solid #FFFFFF; /* 484848 F8F5ED */
 							box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
 										inset 0 0 12px 0px rgba(40,40,40,0.2);
 							-webkit-box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
@@ -638,7 +435,7 @@
 
 		#profile a.button	{
 							padding: 6px 10px 5px; /* FIX ODD PADDING ISSUE */
-							font-size: 14pt; 
+							font-size: 14pt; /* Use to make the profile text a fixed size for all media queries */
 							}	
 								
 		a.button + a.button	{
@@ -746,13 +543,13 @@
 								margin-bottom: 3em !important;
 								text-align: center;
 								}
-			
+
 	img.screenshot	{
 					border: 1px solid #aaa;
 					}
 
 	img.appicon	{
-				width: 8vw; 
+				width: 8vw; /* 10vw */
 				height: auto;
 				-webkit-border-radius: 15%;
 				-moz-border-radius: 15%;
@@ -794,22 +591,22 @@
 		.screencollage a:after	{
 								content: url(../images/enlarge.svg);
 								position: absolute;
-								bottom: -4px; 
+								bottom: -4px; /* 0 */
 								-webkit-transform: scale(.5);
 								-moz-transform: scale(.5);
 								-ms-transform: scale(.5);
 								-o-transform: scale(.5);
 								transform: scale(.5);
-								z-index: 2; 
+								z-index: 2; /* 100 */
 								}
 								
 			.screencollage.book a:after	{
-							content:url(../images/enlarge-white.svg);
-							}
+										content:url(../images/enlarge-white.svg);
+										}
 								
 			.screencollage.five a:nth-child(3):after	{
-									z-index: 4;
-									}
+														z-index: 4;
+														}
 	
 			/* Aligns Left or Right Depending on Image Location */
 				.screencollage a:after,
@@ -826,210 +623,211 @@
 				.screencollage.five a:nth-child(3):after,
 				.screencollage.five a:nth-child(4):after,
 				.screencollage.five a:nth-child(5):after	{
-										right: -4px;
-										}
+															right: -4px; /* 0 */
+															}
 				
 				.screencollage.four a:nth-child(1):after,
 				.screencollage.three a:nth-child(1):after	{
-										right: 0;
-										}	
+															right: 0;
+															}	
 
 					#tangledp2p .screencollage.three a:nth-child(1):after	{
-												right: 22px;
-												}
+																			right: 22px;
+																			}
 						
 		.screencollage img.screenshot	{
-							height: auto;
-							margin: 0;
-							position: relative;
-							vertical-align: middle;
-							}
+											height: auto;
+											margin: 0;
+											position: relative;
+											vertical-align: middle;
+											}
 		
 		.screencollage img.screenshot + img.screenshot,
-		.screencollage a + a					{
-									margin-left: -0.7vw;
-									}
+		.screencollage a + a							{
+														margin-left: -0.7vw;
+														}
 														
 	/* Screen Shot Collage for 5 Images - Use for Customer App Screens */
 		.screencollage.five img.screenshot:first-child,	
 		.screencollage.five img.screenshot:nth-child(5),
 		.screencollage.five a:first-child img.screenshot,	
 		.screencollage.five a:nth-child(5) img.screenshot	{								
-									z-index: 1;
-									width: 15vw; 
-									}
+															z-index: 1;
+															width: 15vw; /* 16vw */
+															}
 
 		.screencollage.five img.screenshot:nth-child(2),
 		.screencollage.five img.screenshot:nth-child(4),
 		.screencollage.five a:nth-child(2) img.screenshot,
 		.screencollage.five a:nth-child(4) img.screenshot	{
-									z-index: 2;
-									width: 18vw;
-									}
+															z-index: 2;
+															width: 18vw;
+															}
 
 		.screencollage.five img.screenshot:nth-child(3),
 		.screencollage.five a:nth-child(3) img.screenshot	{
-									z-index: 3;
-									width: 19vw; 
-									}
+															z-index: 3;
+															width: 19vw; /* 20vw */
+															}
 
 	/* Screen Shot Collage for 1 Image - COMMENTED OUT IMG WITHOUT LINK WRAPS */
 		.screencollage.one a img.screenshot,
-		#tangledp2p .screencollage.one img.screenshot	{
-									z-index: 1;
-									width: 40vw; 
-									}
+		#tangledp2p	.screencollage.one img.screenshot	{
+														z-index: 1;
+														width: 40vw; /* TEMP */
+														}
 
 	/* Screen Shot Collage for 2 Images - COMMENTED OUT IMG WITHOUT LINK WRAPS */
 		.screencollage.two a img.screenshot	{
-							z-index: 1;
-							width: 42vw;
-							}
+											z-index: 1;
+											width: 42vw;
+											}
 
 	/* Screen Shot Collage for 3 Images */
 		.screencollage.three a:first-child img.screenshot, 
 		.screencollage.three a:nth-child(3) img.screenshot	{
-									z-index: 1;
-									width: 28.5vw;
-									}
+															z-index: 1;
+															width: 28.5vw;
+															}
 
 		.screencollage.three a:nth-child(2) img.screenshot	{
-									z-index: 2;
-									width: 32vw;
-									}
+															z-index: 2;
+															width: 32vw;
+															}
 
 		/* For TangledP2P Section */
-			#tangledp2p .screencollage.three a + a		{
-									margin-left: -1.7vw;
-									}
+			#tangledp2p .screencollage.three a + a										{
+																						margin-left: -1.7vw;
+																						}
 																				
 			#tangledp2p .screencollage.three a:first-child img.screenshot, 
-			#tangledp2p .screencollage.three a:nth-child(3) img.screenshot		{
-												z-index: 1;
-												width: 23vw; 
-												}
+			#tangledp2p .screencollage.three a:nth-child(3) img.screenshot			{
+																					z-index: 1;
+																					width: 23vw; /* 24vw */
+																					}
 	
-			#tangledp2p .screencollage.three a:nth-child(2) img.screenshot		{
-												z-index: 2;
-												width: 42vw; 
-												}
+			#tangledp2p .screencollage.three a:nth-child(2) img.screenshot			{
+																					z-index: 2;
+																					width: 42vw; /* 43vw */
+																					}
 
 		/* For Tangled P2P Overview Section */
 			#tangledp2p .screencollage.three.overview a:first-child img.screenshot,
 			#tangledp2p .screencollage.three.overview a:nth-child(3) img.screenshot	{
-												width: 31vw;
-												}
+																					width: 31vw; /* 32vw */
+																					}
 	
 			#tangledp2p .screencollage.three.overview a:nth-child(2) img.screenshot	{
-												width: 26vw;
-												}
+																					width: 26vw; /* 27vw */
+																					}
 
 			/* For TangledP2P Theme Framework Section */
 			#themeframework .screencollage.three a + a	{
-									margin-left: -2vw;
-									}
+																					margin-left: -2vw;
+																					}
+
 
 			#themeframework .screencollage.three a:first-child img.screenshot, 
 			#themeframework .screencollage.three a:nth-child(3) img.screenshot	{
-												z-index: 1;
-												width: 25vw;
-												}
+																				z-index: 1;
+																				width: 25vw; /* 26vw */
+																				}
 	
-			#themeframework .screencollage.three a:nth-child(2) img.screenshot	{
-												z-index: 2;
-												width: 38vw;
-												}
+			#themeframework .screencollage.three a:nth-child(2)	img.screenshot	{
+																				z-index: 2;
+																				width: 38vw; /* 39vw */
+																				}
 
 	/* Screen Shot Collage for 4 Images, 2 Groups - COMMENTED OUT IMG WITHOUT LINK WRAPS */
 		.screencollage.four a:first-child img.screenshot,
 		.screencollage.four a:nth-child(4) img.screenshot	{
-									z-index: 1;
-									width: 19vw; 
-									}
+															z-index: 1;
+															width: 19vw; /* 20vw */
+															}
 
 		.screencollage.four a:nth-child(2) img.screenshot,
 		.screencollage.four a:nth-child(3) img.screenshot	{
-									z-index: 2;
-									width: 23vw; 
-									}
+															z-index: 2;
+															width: 23vw; /* 24vw */
+															}
 
 		.screencollage.four a:nth-child(3) img.screenshot	{
-									margin-left: 1vw !important;
-									}
+															margin-left: 1vw !important;
+															}
 
 	/* Screen Shot Collage for 8 Images - DELETE IF NOT USING APPRISE BIO */															
 		.screencollage.eight img.screenshot + img.screenshot	{
-									margin-left: -1.5vw;
-									}
+																margin-left: -1.5vw;
+																}
 
 		.screencollage.eight img.screenshot {
-							padding: 1vw;
-							background-color: #FFFFFF;
-							}
+											padding: 1vw;
+											background-color: #FFFFFF;
+											}
 
 		.screencollage.eight img.screenshot:first-child,
 		.screencollage.eight img.screenshot:nth-child(8)	{
-									z-index: 1;
-									width: 8vw;
-									}
+												z-index: 1;
+												width: 8vw;
+												}
 
 		.screencollage.eight img.screenshot:nth-child(2),
 		.screencollage.eight img.screenshot:nth-child(7)	{
-									z-index: 2;
-									width: 9vw;
-									}
+												z-index: 2;
+												width: 9vw;
+												}
 
 		.screencollage.eight img.screenshot:nth-child(3),
 		.screencollage.eight img.screenshot:nth-child(6)	{
-									z-index: 3;
-									width: 10vw;
-									}
+												z-index: 3;
+												width: 10vw;
+												}
 												
 		.screencollage.eight img.screenshot:nth-child(4)	{
-									z-index: 5;
-									width: 11.5vw;
-									}
+												z-index: 5;
+												width: 11.5vw;
+												}
 
 		.screencollage.eight img.screenshot:nth-child(5)	{
-									z-index: 4;
-									width: 10.75vw;
-									}
+												z-index: 4;
+												width: 10.75vw;
+												}
 
 /* Tangled P2P Theme Framework Build Section Images */
 	img[src*="images/aektakapasi-tangled-p2p-twcviews.png"]	{
-								max-width: 551px !important;
-								}
+															max-width: 551px !important;
+															}
 
 	img[src*="images/aektakapasi-tangled-p2p-twcstyles.png"]	{
-									max-width: 551px !important;
-									}
+																max-width: 551px !important;
+																}
 
 	img[src*="images/aektakapasi-tangled-p2p-uicolor.png"]	{
-								max-width: 716px !important;
-								}
+															max-width: 716px !important;
+															}
 
 	img[src*="images/aektakapasi-tangled-p2p-copytext.png"]	{
-								max-width: 515px !important;
-								}
+															max-width: 515px !important;
+															}
 
 
 	img[src*="images/aektakapasi-tangled-p2p-appdelegate.png"]	{
-									max-width: 676px !important;
-									}
+																max-width: 676px !important;
+																}
 
 /* Loka Screen Collage Book Pages */
 	#lokabooks img.bookcover	{
-						width: 43.2vw; 
-						margin: 1em 0 0.7vw;
-						}
+								width: 43.2vw; /* TEMP */
+								margin: 1em 0 0.7vw;
+								}
 
 	.screencollage.book a	{
-					margin: 0.5vw;
-					}
+							margin: 0.5vw;
+							}
 							
 	.screencollage.book img {
-					width: 41.8vw; 
-					}
+							width: 41.8vw; /* TEMP */
+							}
 
 
 /* Design Process Expand and Collapse */
@@ -1049,64 +847,64 @@
 	.details label:active,
 	.details label:hover:before,
 	.details label:active:before	{
-							background-color: #69635F !important;
-							-webkit-transition: all .3s ease;
-							-moz-transition: all .3s ease;
-							-ms-transition: all .3s ease;
-							-o-transition: all .3s ease;
-							transition: all .3s ease;
-							}
+									background-color: #69635F !important;
+									-webkit-transition: all .3s ease;
+									-moz-transition: all .3s ease;
+									-ms-transition: all .3s ease;
+									-o-transition: all .3s ease;
+									transition: all .3s ease;
+									}
 	
 	.details input[type=checkbox] ~ figure,
 	.details input[type=checkbox] ~ div 	{ 
-						display: none;
-						}
+											display: none;
+											}
 	
 	.details input[type=checkbox]:checked ~ figure,
 	.details input[type=checkbox]:checked ~ div 	{ 
-							display: block;													
-							}
+													display: block;													
+													}
 
 	.details input[type=checkbox] + label:before		{
-								content: 'View Details';
-								position: relative; 
-								padding: 7px 10px 4px 10px;  
-								top: 7px;  
-								font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-								text-transform: uppercase;
-								font-size: 1.1em;
-								color: #FFFFFF;
-								background-color: #9C958F; 
-								-webkit-border-radius: 4px;
-								-moz-border-radius: 4px; 
-								border-radius: 4px;
-								}
+														content: 'View Details';
+														position: relative; /* absolute */
+														padding: 7px 10px 4px 10px;  /* Need if hiding button after expanding details*/
+														top: 7px;  /* Need if hiding button after expanding details*/
+														font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+														text-transform: uppercase;
+														font-size: 1.1em;
+														color: #FFFFFF;
+														background-color: #9C958F; /* Need if hiding button after expanding details*/
+														-webkit-border-radius: 4px; /* Need if hiding button after expanding details*/
+														-moz-border-radius: 4px; /* Need if hiding button after expanding details*/
+														border-radius: 4px; /* Need if hiding button after expanding details*/
+														}
 														
 		.customerapp .details input[type=checkbox] + label:before	{
-										content: 'View Storyboards';
-										}
+																	content: 'View Storyboards';
+																	}
 
 		#tangled .first .details input[type=checkbox] + label:before	{
-										content: 'View History';
-										}
+																		content: 'View History';
+																		}
 																		
 																		
 		#tangledp2p .details input[type=checkbox] + label:before	{
-										content: 'View Process';
-										}
+																	content: 'View Process';
+																	}
 
 	/* Removes the extra ghost height when checkbox is checked and the button is hidden */
 	.details input[type=checkbox]:checked + label + figure,
 	.details input[type=checkbox]:checked + label + div		{
-									position: relative;
-									top: -2em;
-									margin-bottom: -2em;
-									}
+															position: relative;
+															top: -2em;
+															margin-bottom: -2em;
+															}
 	
 	.details input[type=checkbox]:checked + label:before	{
-								display: none;
-								margin-top: -28px; 
-								}
+															display: none; /* Use to hide button after expanding details */
+															margin-top: -28px; /* DOESN'T DO ANYTHING ANYMORE ? */
+															}
 
 	#playwork section	{
 						float: left;
@@ -1117,25 +915,31 @@
 						}
 						
 	#playwork section:first-child	{
-					border-right: 2px solid #EFEAE7;
-					}
+									border-right: 2px solid #EFEAE7;
+									}
 									
 	#playwork section:before	{
-					border: 0;
-					margin: 0 16px;
-					}
+								border: 0;
+								margin: 0 16px;
+								}
 
 
-/* CSS Slider */
+/* CSS Slider -- Need to change Entry width 97.5% to 100%?*/
 	/* All Links */
 		label,
 		a		{
 				cursor: pointer;
 				}
 	
+		label:hover, 
+		a:hover		{
+					color: ;
+					}
+	
 	/* Prevents Text Selection in Browser */
 		label, 
 		#active,
+		#tabactive, 
 		img		{ 
 				-moz-user-select: none;
 				-webkit-user-select: none;
@@ -1144,46 +948,46 @@
 	/* Slider */
 		/* Slides Inner Positions */
 			#slide1:checked ~ #slides .inner	{
-								margin-left: 0; 
-								}
+												margin-left: 0; 
+												}
 												
 			#slide2:checked ~ #slides .inner	{
-								margin-left: -100%; /* - width of 1 slide if 5 slides */
-								}
+												margin-left: -100%; /* - width of 1 slide if 5 slides */
+												}
 												
 			#slide3:checked ~ #slides .inner	{
-								margin-left: -200%; /* - width of 2 slides if 5 slides */
-								}
+
+												margin-left: -200%; /* - width of 2 slides if 5 slides */
+												}
 												
 			#slide4:checked ~ #slides .inner	{
-								margin-left: -300%; /* - width of 3 slides if 5 slides */
-								}
-								
+												margin-left: -300%; /* - width of 3 slides if 5 slides */
+												}
+												
 			#slide5:checked ~ #slides .inner	{
-								margin-left: -400%; /* - width of 4 slides if 5 slides */
-								}
+												margin-left: -400%; /* - width of 4 slides if 5 slides */
+												}
 												
 			#slide6:checked ~ #slides .inner	{
-								margin-left: -500%; /* - width of 4 slides if 5 slides */
-								}
+												margin-left: -500%; /* - width of 4 slides if 5 slides */
+												}
 												
 			#slide7:checked ~ #slides .inner	{
-								margin-left: -600%; /* - width of 4 slides if 5 slides */
-								}
+												margin-left: -600%; /* - width of 4 slides if 5 slides */
+												}
 												
 			#slide8:checked ~ #slides .inner	{
-								margin-left: -700%; /* - width of 4 slides if 5 slides */
-								}															
+												margin-left: -700%; /* - width of 4 slides if 5 slides */
+												}															
 
 			#slide9:checked ~ #slides .inner	{
-								margin-left: -800%; /* - width of 4 slides if 5 slides */
-								}	
+												margin-left: -800%; /* - width of 4 slides if 5 slides */
+												}	
 												
 			#slide10:checked ~ #slides .inner	{
-								margin-left: -900%; /* - width of 4 slides if 5 slides */
-								}	
-
-	
+												margin-left: -900%; /* - width of 4 slides if 5 slides */
+												}	
+																											
 		/* Slider */
 			#slides {
 					margin: 0;
@@ -1203,7 +1007,8 @@
 
 				.slide img	{
 							margin: 0;
-							max-width: 88vw;
+							width: ;
+							max-width: 88vw; /* 92vw */
 							height: auto; 
 							-webkit-user-select: none;  
 							-moz-user-select: none;    
@@ -1214,69 +1019,71 @@
 				/* Creates the 5 Slides and Hides 4 Off Screen Until Selected */
 					#slides .inner	{
 									width: 1000%; /* 5x width of 1 slide if 5 slides */
+									line-height: ; / default was 0 but why? it cropped text */
 									}
 			
 					#slides .slide	{
-							width: 10%; /* 100% divided by number of slides (5) */
-							float: left;
-							}
+									width: 10%; /* 100% divided by number of slides (5) */
+									float: left;
+									height: ; /* TEMP CHANGE WHEN PORTFOLIO IMAGES ARE FINISHED */
+									}
 														
 		
 			/* Navigation */
 				/* Hides Radio Buttons Used for the Slider Navigation */
 					.carousel input 	{
-								display: none;
-								}
+										display: none;
+										}
 												
 				/* Navigation Container */
 					/* Container for Container - Need for horizontal scroll of controls */
 						#active-container	{
-									overflow: auto;
-									width: 100%;
-									background-color: #FFFFFF;
-									}
+											overflow: auto;
+											width: 100%;
+											background-color: #FFFFFF;
+											}
 						
 							.bottomborder	{
-									border-bottom: 2px solid #EFEAE7; 
-									}
+											border-bottom: 2px solid #EFEAE7; /* EEEEEE or DCD3CC */
+											}
 							
 					/* Container for Radio Buttons */
 						#active 	{
-								position: relative;
-								}
+									position: relative;
+									}
 									
 						#active	{
 								clear: left;
 								z-index: 2;
 								width: 96vw; /* accounts for scroll bar width vertical */
-								margin: 0 16px 16px; 
+								margin: 0 16px 16px; /* 16px all sides */
 								text-align: center; /* IMPLEMENT IF CONTROLS DON'T NEED TO SCROLL */
 								}
 					
 					/* First Level Tabs */ 																		
 						#active label 	{
-								text-align: center;
-								margin-bottom: 0;
-								cursor: pointer;
-								transition(all 0.2s ease-in-out);
-								width: auto;
-								color: #B8B8B8;
-								white-space: nowrap;
-								vertical-align: middle;
-								position: relative; /* For Text Label Under Image */
-								}
+										text-align: center;
+										margin-bottom: 0;
+										cursor: pointer;
+										transition(all 0.2s ease-in-out);
+										width: auto;
+										color: #B8B8B8;
+										white-space: nowrap;
+										vertical-align: middle;
+										position: relative; /* For Text Label Under Image */
+										}
 								
 								#active label + label	{
-											margin-left: 4vw;	
-											}
+														margin-left: 4vw;	
+														}
 																							
 							/* For When Images are used instead of text labels */
 							#active label img	{
-										width: 20vw;
-										height: auto; 
-										object-fit: cover;
-										border-bottom: 2px solid #FFFFFF;
-										}
+												width: 20vw; /* 20vw = (97.8vw - (3 x 4vw)) / 4   OR  42vw or 28vw = (97.8vw - (2 x 4vw)) / 3 */
+												height: auto; /* 10vh */
+												object-fit: cover;
+												border-bottom: 2px solid #FFFFFF;
+												}
 								
 								label img:hover	{
 												-webkit-filter: brightness(80%);
@@ -1300,8 +1107,8 @@
 							#slide8:checked ~ #active-container #active label:nth-child(8) img,
 							#slide9:checked ~ #active-container #active label:nth-child(9) img,
 							#slide10:checked ~ #active-container #active label:nth-child(10) img	{
-																border-bottom: 2px solid #9C958F;
-																}
+																									border-bottom: 2px solid #9C958F;
+																									}
 																					
 							#slide1:checked ~ #active-container #active label:nth-child(1) img:hover,
 							#slide2:checked ~ #active-container #active label:nth-child(2) img:hover,
@@ -1313,10 +1120,10 @@
 							#slide8:checked ~ #active-container #active label:nth-child(8) img:hover,
 							#slide9:checked ~ #active-container #active label:nth-child(9) img:hover,
 							#slide10:checked ~ #active-container #active label:nth-child(10) img:hover	{													
-																	-webkit-filter: brightness(100%);
-																	-moz-filter: brightness(100%);
-																	filter: brightness(100%);
-																	}
+																										-webkit-filter: brightness(100%);
+																										-moz-filter: brightness(100%);
+																										filter: brightness(100%);
+																										}
 													
 		/* Animation */ 
 			#slides .inner 	{
@@ -1353,7 +1160,9 @@
 			#controls, 
 			#slides, 
 			#active,
-			#active label	{
+			#tabactive, 
+			#active label,
+			#tabactive label	{
 								-webkit-transform: translateZ(0);
 								-webkit-transition: all 0.5s ease-out;
 								-moz-transition: all 0.5s ease-out;
@@ -1379,7 +1188,7 @@ and (max-width: 912px)	{
 			}
 		
 	#active	{
-			width: 96vw; /* accounts for scroll bar width vertical*/
+			width: 96vw; /* TEMP TIL PORTFOLIO IMAGES FINISHED - accounts for scroll bar width vertical*/
 			}
 }
 	
@@ -1393,58 +1202,63 @@ and (max-width: 768px)	{
 
 	/* For When Images are used instead of text labels */
 	#active label img	{
-				width: 40vw; 
-				}
+						width: 40vw; /* 20vw = (97.8vw - (3 x 4vw)) / 4   OR  28vw = (97.8vw - (2 x 4vw)) / 3 */
+						}
 
 	img.appicon	{
 				width: 20vw;
 				}
 
 	.screencollage img.screenshot + img.screenshot,
-	.screencollage a + a 					{
-								margin-left: -1.4vw;
-								}
+	.screencollage a + a 							{
+													margin-left: -1.4vw;
+													}
 													
 	#tangledp2p  .screencollage.three a:nth-child(1):after	{
-								right: 16px;
-								}
+															right: 16px;
+															}
 				
 	/* Screen Shot Collage for 3 Images */
 		.screencollage.three a:first-child img.screenshot, 
 		.screencollage.three a:nth-child(3) img.screenshot	{
-									width: 26.5vw; 
-									}
+															width: 26.5vw; /* 27.5vw */
+															}
 
 		/* For TangledP2P Section */
 				#tangledp2p .screencollage.three.overview img.screenshot + img.screenshot,
-				#tangledp2p .screencollage.three a + a					{
-													margin-left: -5vw;
-													}
-	
+				#tangledp2p .screencollage.three a + a										{
+																							margin-left: -5vw;
+																							}
+
 				#tangledp2p .screencollage.three a:first-child img.screenshot, 
 				#tangledp2p .screencollage.three a:nth-child(3) img.screenshot	{
-												width: 22vw;
-												}
+																				width: 22vw; /* 23vw */
+																				}
 																	
 			/* For TangledP2P #UIlibrary Section */
-			#tangledp2p #uilibrary .screencollage.three a + a	{
-										margin-left: -3.5vw;
-										}
+			#tangledp2p #uilibrary .screencollage.three a + a								{
+																							margin-left: -3.5vw;
+																							}
 
 	/* Screen Shot Collage for 4 Images, 2 Groups */
 		.screencollage.four a:first-child img.screenshot,
 		.screencollage.four a:nth-child(4) img.screenshot	{
-									width: 18.5vw; 
-									}
+															width: 18.5vw; /* 19vw */
+															}
 												
+	/* Screen Shot Collage for 8 Images */											
+		.screencollage.eight img.screenshot + img.screenshot 	{
+																margin-left: -2.4vw;
+																}
+
 	.screencollage.book a	{
-				display: block;
-				margin: 1em auto;
-				}
+							display: block;
+							margin: 1em auto;
+							}
 
 	.screencollage.book img {
-				width: 88vw;
-				}
+							width: 88vw;
+							}
 }
 
 /* Mobile - Portrait and Landscape */ 
@@ -1456,9 +1270,10 @@ and (max-width: 480px)	{
 		}
 	
 		#tangledp2pheading h3 span	{
-						font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
-						font-size: 0.84em; /* the em is calculated from the h3 element */
-						}
+									
+									font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+									font-size: 0.84em; /* the em is calculated from the h3 element */
+									}
 	#profile h1	{
     			font-size: 28pt;
 				}
@@ -1477,37 +1292,37 @@ and (max-width: 480px)	{
 			}
 
 		#active label + label	{
-					margin-left: 2vw;	
-					}
+								margin-left: 2vw;	
+								}
 
 	#tangledp2p  .screencollage.three a:nth-child(1):after	{
-								right: 10px;
-								}
+															right: 10px;
+															}
 
 	.screencollage img.screenshot + img.screenshot,
-	.screencollage a + a 					{
-								margin-left: -3vw;
-								}
+	.screencollage a + a 							{
+													margin-left: -3vw;
+													}
 
 	.screencollage.five img.screenshot + img.screenshot	{
-								margin-left: -3.9vw;
-								}	
+														margin-left: -3.9vw;
+														}	
 
 	/* Screen Shot Collage for 3 Images */
 		.screencollage.three img.screenshot:first-child, 
 		.screencollage.three img.screenshot:nth-child(3)	{
-									width: 27.5vw;
-									}
+															width: 27.5vw;
+															}
 
 	/* Screen Shot Collage for 4 Images, 2 Groups */
 		.screencollage.four a:first-child img.screenshot,
 		.screencollage.four a:nth-child(4) img.screenshot	{
-									width: 18.6vw;
-									}
+															width: 18.6vw;
+															}
 
 		.screencollage.four a:nth-child(3) img.screenshot	{
-									margin-left: 3vw !important;
-									}
+															margin-left: 3vw !important;
+															}
 
 	section	{
 			margin: 48px 6vw;
