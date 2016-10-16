@@ -1277,6 +1277,7 @@ and (max-width: 480px)	{
 	#profile img#avatar	{
 					height: 76px;
     					width: 76px;
+					margin: 8px 8px 4px;
 					}
 	
 	#profile h1	{
