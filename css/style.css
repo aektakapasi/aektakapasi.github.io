@@ -210,7 +210,7 @@
 		}
 
 	html	{
-			font-size: 20px; /* Use to set size of 1em */
+			font-size: 22px; /* Use to set size of 1em */
 			}
 			
 	h1 	{
@@ -300,7 +300,6 @@
 	/* Links */
 		a,
 		a:link 	{
-				/*font-size: 1.35em;*/
 				text-decoration: ;
 				}
 			
@@ -312,9 +311,6 @@
 		a:hover 	{
 					color: #9C958F;
 					text-decoration: ;
-					/*filter: brightness(80%);
-					-webkit-filter: brightness(80%);
-					-moz-filter: brightness(80%);*/
 					}
 			
 		a:active 	{
@@ -410,6 +406,218 @@
 				font-size: 15pt; /* Use to make the profile text a fixed size for all media queries */
 				margin: 4px auto 0;
 				max-width: 616px;
+/* Typography */
+	* 	{
+		font-family: 'Roboto', 'Roboto-Light', Arial, Helvetica, sans-serif !important;
+		font-weight: 300;
+		color: #4C4743;
+		}
+
+	html	{
+			font-size: 22px; /* Use to set size of 1em */
+			}
+			
+	h1 	{
+		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+		font-size: 2.5em;
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 4px;
+		}
+	
+	h2 	{
+		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+		font-size: 1.75em;
+		color: #9C958F;
+		line-height: ;
+		text-align: center;
+		margin: ;
+		}
+	
+	h3 	{
+		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+		font-size: 2.6em; 
+		text-align: center;
+		text-transform: uppercase;
+		margin: 4px 0; 
+		}
+
+		#tangledp2pheading h3 span	{
+						font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+						font-size: 1em; /* the em is calculated from the h3 element */
+						}
+		
+	h4 	{
+		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+		font-size: 1.5em;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 4vw 0;
+		}			
+
+		h2 + h4	{
+				font-size: 1.15em;
+				color: #9C958F;
+				margin: 4px 0 0;
+				}
+
+	h5 	{
+		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+		font-size: 1.15em;
+		color: #9C958F;
+		text-align: center;
+		margin: 6px;
+		}
+		
+	h6 	{
+		font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+		font-size: 1.8em; 
+		text-align: left;
+		text-transform: uppercase;
+		margin: 64px 0 0; 
+		}
+		
+		h6.h7	{
+				font-size: 1.5em;
+				margin: 40px 0 0;
+				}
+
+		h6.h8	{
+				font-size: 1.1em; 
+				margin: 1em 0 -0.25em 2.8em;
+				}
+		
+	p 	{
+		font-size: 1.35em; 
+		line-height: 1.2em;
+		margin: 1em 0 1em;
+		text-align: left;
+		}
+
+	span 	{
+			font-size: 1.35em;
+			}
+		
+	small 	{
+			font-size: 1em;
+			margin: 0.5em 0;
+			display: block;
+			text-align: left;
+			}
+
+	/* Links */
+		a,
+		a:link 	{
+				color: #9C958F;
+				text-decoration: ;
+				}
+			
+		a:visited 	{
+					color: #4C4743;
+					text-decoration: ;
+					}
+
+		a:hover 	{
+					color: #9C958F;
+					text-decoration: ;
+					}
+			
+		a:active 	{
+					color: ;
+					text-decoration: ;
+					}					
+
+
+	/* Lists */
+		li 	{
+			font-size: 1.35em;
+			line-height: 1.2em;
+			text-align: left;
+			}
+
+		ul li	{
+				margin: 0.5em 0 0.5em 1em;
+				list-style: disc;
+				list-style-position: outside; 
+				}
+				
+			ul li:first-child	{
+								margin: 1em 0 0.5em 1em; 
+								}
+		
+		ol li	{
+				margin: 1em 0 1em 1em;
+				list-style: decimal;
+				list-style-position: outside;
+				}
+		
+		h6 + ul,
+		h6 + ol	{
+					margin: 1em 0;
+					}
+
+		ol ul li	{
+					font-size: 1.1em;
+					margin: 0.5em 2em 0.5em 4em;
+					list-style: disc;
+					list-style-position: outside;
+					}
+					
+			ol ul li:first-child	{
+									margin: 1em 0 0.5em 2em;
+									}
+		
+		
+/* Body Structure */
+	body	{
+			}
+			
+	#container	{
+				}
+
+	#content	{
+				}
+
+	#profile	{
+				text-align: center;
+				padding: 0 0 16px;
+				}
+				
+	.carousel	{
+				position: relative; /* Used to make z-index work */
+				z-index: 2; 
+				background-color: ;
+				}
+
+/* Profile */						
+	#profile  img#avatar	{
+							border-radius: 50%;
+							-webkit-border-radius: 50%;
+							-moz-border-radius: 50%;
+							height: 106px;
+							width: 106px;
+							margin: 8px;
+							border: 4px solid #FFFFFF; 
+							box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
+										inset 0 0 12px 0px rgba(40,40,40,0.2);
+							-webkit-box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
+										inset 0 0 12px 0px rgba(40,40,40,0.2);
+							-moz-box-shadow: 0 4px 12px -5px rgba(0,0,0,0.2),
+										inset 0 0 12px 0px rgba(40,40,40,0.2);
+							}
+
+	#profile h1	{
+				font-size: 30pt; /* Use to make the profile text a fixed size for all media queries */
+				}	
+	
+	#profile h2	{
+				font-size: 21pt; /* Use to make the profile text a fixed size for all media queries */
+				}
+				
+	#profile p	{
+				font-size: 15pt; /* Use to make the profile text a fixed size for all media queries */
+				margin: 4px auto 0;
+				max-width: 616px;
 				width: 92vw;
 				text-align: center;
 				}
@@ -422,26 +630,29 @@
 				padding: 7px 10px 4px;
 				background-color: #9C958F;
 				color: #FFFFFF;
-				border-radius: 4px;
 				-webkit-border-radius: 4px;
 				-moz-border-radius: 4px;
+				border-radius: 4px;
 				text-decoration: none;
 				}
 
 		#profile a.button	{
-					padding: 6px 10px 5px; /* FIX ODD PADDING ISSUE */
-					font-size: 14pt; /* Use to make the profile text a fixed size for all media queries */
-					}	
+							padding: 6px 10px 5px; /* FIX ODD PADDING ISSUE */
+							font-size: 14pt; 
+							}	
 								
 		a.button + a.button	{
-					margin: 8px 8px 0;
-					}
+								margin: 8px 8px 0;
+								}
 				
 		a.button:hover,
-		a.button:active	{
-							filter: brightness(80%);
-							-webkit-filter: brightness(80%);
-							-moz-filter: brightness(80%);
+		a.button:active		{
+							background-color: #69635F;
+							-webkit-transition: all .3s ease;
+							-moz-transition: all .3s ease;
+							-ms-transition: all .3s ease;
+							-o-transition: all .3s ease;
+							transition: all .3s ease;
 							}							
 
 /* Jump To Top */
@@ -454,7 +665,863 @@
 				
 		a#jumptop:hover,
 		a#jumptop:active	{
-							filter: brightness(80%);
-							-webkit-filter: brightness(80%);
-							-moz-filter: brightness(80%);
+							-webkit-filter: brightness(70%);
+							-moz-filter: brightness(70%);
+							filter: brightness(70%);
+							-webkit-transition: all .3s ease;
+							-moz-transition: all .3s ease;
+							-ms-transition: all .3s ease;
+							-o-transition: all .3s ease;
+							transition: all .3s ease;
 							}
+
+/* Slide Content */
+	section	{
+			margin: 48px 6vw;
+			}
+										
+	section:before	{
+					display: block;
+					content: "";
+					border-top: 2px solid #EFEAE7;
+					margin: 48px 0;
+					}	
+					
+		section.first:before	{
+								border-top: 0;
+								}
+		
+		section#overview,
+		section#overview.first:before	{
+										margin: 0;
+										}
+
+	section > div	{
+					text-align: center;
+					}
+	
+/* Layouts for Case Overviews */
+	.figureheading	{
+					text-align: center;
+					margin: 40px 0 40px;
+					}
+
+	.figureheading:before	{
+							display: block;
+							content: "";
+							border-top: 2px solid #EFEAE7;
+							margin: 48px 0;
+							}
+							
+		.figureheading.first:before	{
+									display: none;
+									}
+									
+																
+	.figureheading h3	{
+						margin: 16px 0 8px;
+						}
+						
+	.figureheading .platform img	{
+									width: auto;
+									height: 32px;
+									margin: 0 2px 0;
+									}
+
+	figure	{
+			text-align: center;
+			}
+				
+	figcaption small:last-child,
+	div small:last-child			{
+									margin-bottom: 1em;
+									}
+									
+	figcaption a.button	{
+						margin: 8px 0 0;
+						}
+
+	figure .screencollage + small,
+	div .screencollage + small 	{
+								margin-bottom: 3em !important;
+								text-align: center;
+								}
+			
+	img.screenshot	{
+					border: 1px solid #aaa;
+					}
+
+	img.appicon	{
+				width: 8vw; 
+				height: auto;
+				-webkit-border-radius: 15%;
+				-moz-border-radius: 15%;
+				border-radius: 15%;
+				}
+				
+		img.appicon.border	{
+							border: 1px solid #DCD3CC;
+							}		
+
+/* Layouts for Screen Shots */	
+	.screencollage	{
+						margin: 0 0;
+						position: relative;
+						vertical-align: middle;
+						}
+
+		figcaption + .screencollage {
+									margin-top: 2em;
+									}
+
+	.screencollage a	{
+						position: relative;
+						display: inline-block;
+						}
+						
+		.screencollage a:hover	{
+								-webkit-filter: brightness(80%);
+								-moz-filter: brightness(80%);
+								filter: brightness(80%);
+								-webkit-transition: all .3s ease;
+								-moz-transition: all .3s ease;
+								-ms-transition: all .3s ease;
+								-o-transition: all .3s ease;
+								transition: all .3s ease;
+								}
+						
+	/* Expand Icon */
+		.screencollage a:after	{
+								content: url(../images/enlarge.svg);
+								position: absolute;
+								bottom: -4px; 
+								-webkit-transform: scale(.5);
+								-moz-transform: scale(.5);
+								-ms-transform: scale(.5);
+								-o-transform: scale(.5);
+								transform: scale(.5);
+								z-index: 2; 
+								}
+								
+			.screencollage.book a:after	{
+							content:url(../images/enlarge-white.svg);
+							}
+								
+			.screencollage.five a:nth-child(3):after	{
+									z-index: 4;
+									}
+	
+			/* Aligns Left or Right Depending on Image Location */
+				.screencollage a:after,
+				.screencollage.one a:after,
+				.screencollage.two a:first-child:after,
+				.screencollage.two a:nth-child(2):after,
+				.screencollage.four a:nth-child(2):after,
+				.screencollage.four a:nth-child(3):after,
+				.screencollage.four a:nth-child(4):after,
+				.screencollage.three a:nth-child(2):after,
+				.screencollage.three a:nth-child(3):after,
+				.screencollage.five a:nth-child(1):after,
+				.screencollage.five a:nth-child(2):after,
+				.screencollage.five a:nth-child(3):after,
+				.screencollage.five a:nth-child(4):after,
+				.screencollage.five a:nth-child(5):after	{
+										right: -4px;
+										}
+				
+				.screencollage.four a:nth-child(1):after,
+				.screencollage.three a:nth-child(1):after	{
+										right: 0;
+										}	
+
+					#tangledp2p .screencollage.three a:nth-child(1):after	{
+												right: 22px;
+												}
+						
+		.screencollage img.screenshot	{
+							height: auto;
+							margin: 0;
+							position: relative;
+							vertical-align: middle;
+							}
+		
+		.screencollage img.screenshot + img.screenshot,
+		.screencollage a + a					{
+									margin-left: -0.7vw;
+									}
+														
+	/* Screen Shot Collage for 5 Images - Use for Customer App Screens */
+		.screencollage.five img.screenshot:first-child,	
+		.screencollage.five img.screenshot:nth-child(5),
+		.screencollage.five a:first-child img.screenshot,	
+		.screencollage.five a:nth-child(5) img.screenshot	{								
+									z-index: 1;
+									width: 15vw; 
+									}
+
+		.screencollage.five img.screenshot:nth-child(2),
+		.screencollage.five img.screenshot:nth-child(4),
+		.screencollage.five a:nth-child(2) img.screenshot,
+		.screencollage.five a:nth-child(4) img.screenshot	{
+									z-index: 2;
+									width: 18vw;
+									}
+
+		.screencollage.five img.screenshot:nth-child(3),
+		.screencollage.five a:nth-child(3) img.screenshot	{
+									z-index: 3;
+									width: 19vw; 
+									}
+
+	/* Screen Shot Collage for 1 Image - COMMENTED OUT IMG WITHOUT LINK WRAPS */
+		.screencollage.one a img.screenshot,
+		#tangledp2p .screencollage.one img.screenshot	{
+									z-index: 1;
+									width: 40vw; 
+									}
+
+	/* Screen Shot Collage for 2 Images - COMMENTED OUT IMG WITHOUT LINK WRAPS */
+		.screencollage.two a img.screenshot	{
+							z-index: 1;
+							width: 42vw;
+							}
+
+	/* Screen Shot Collage for 3 Images */
+		.screencollage.three a:first-child img.screenshot, 
+		.screencollage.three a:nth-child(3) img.screenshot	{
+									z-index: 1;
+									width: 28.5vw;
+									}
+
+		.screencollage.three a:nth-child(2) img.screenshot	{
+									z-index: 2;
+									width: 32vw;
+									}
+
+		/* For TangledP2P Section */
+			#tangledp2p .screencollage.three a + a		{
+									margin-left: -1.7vw;
+									}
+																				
+			#tangledp2p .screencollage.three a:first-child img.screenshot, 
+			#tangledp2p .screencollage.three a:nth-child(3) img.screenshot		{
+												z-index: 1;
+												width: 23vw; 
+												}
+	
+			#tangledp2p .screencollage.three a:nth-child(2) img.screenshot		{
+												z-index: 2;
+												width: 42vw; 
+												}
+
+		/* For Tangled P2P Overview Section */
+			#tangledp2p .screencollage.three.overview a:first-child img.screenshot,
+			#tangledp2p .screencollage.three.overview a:nth-child(3) img.screenshot	{
+												width: 31vw;
+												}
+	
+			#tangledp2p .screencollage.three.overview a:nth-child(2) img.screenshot	{
+												width: 26vw;
+												}
+
+			/* For TangledP2P Theme Framework Section */
+			#themeframework .screencollage.three a + a	{
+									margin-left: -2vw;
+									}
+
+			#themeframework .screencollage.three a:first-child img.screenshot, 
+			#themeframework .screencollage.three a:nth-child(3) img.screenshot	{
+												z-index: 1;
+												width: 25vw;
+												}
+	
+			#themeframework .screencollage.three a:nth-child(2) img.screenshot	{
+												z-index: 2;
+												width: 38vw;
+												}
+
+	/* Screen Shot Collage for 4 Images, 2 Groups - COMMENTED OUT IMG WITHOUT LINK WRAPS */
+		.screencollage.four a:first-child img.screenshot,
+		.screencollage.four a:nth-child(4) img.screenshot	{
+									z-index: 1;
+									width: 19vw; 
+									}
+
+		.screencollage.four a:nth-child(2) img.screenshot,
+		.screencollage.four a:nth-child(3) img.screenshot	{
+									z-index: 2;
+									width: 23vw; 
+									}
+
+		.screencollage.four a:nth-child(3) img.screenshot	{
+									margin-left: 1vw !important;
+									}
+
+	/* Screen Shot Collage for 8 Images - DELETE IF NOT USING APPRISE BIO */															
+		.screencollage.eight img.screenshot + img.screenshot	{
+									margin-left: -1.5vw;
+									}
+
+		.screencollage.eight img.screenshot {
+							padding: 1vw;
+							background-color: #FFFFFF;
+							}
+
+		.screencollage.eight img.screenshot:first-child,
+		.screencollage.eight img.screenshot:nth-child(8)	{
+									z-index: 1;
+									width: 8vw;
+									}
+
+		.screencollage.eight img.screenshot:nth-child(2),
+		.screencollage.eight img.screenshot:nth-child(7)	{
+									z-index: 2;
+									width: 9vw;
+									}
+
+		.screencollage.eight img.screenshot:nth-child(3),
+		.screencollage.eight img.screenshot:nth-child(6)	{
+									z-index: 3;
+									width: 10vw;
+									}
+												
+		.screencollage.eight img.screenshot:nth-child(4)	{
+									z-index: 5;
+									width: 11.5vw;
+									}
+
+		.screencollage.eight img.screenshot:nth-child(5)	{
+									z-index: 4;
+									width: 10.75vw;
+									}
+
+/* Tangled P2P Theme Framework Build Section Images */
+	img[src*="images/aektakapasi-tangled-p2p-twcviews.png"]	{
+								max-width: 551px !important;
+								}
+
+	img[src*="images/aektakapasi-tangled-p2p-twcstyles.png"]	{
+									max-width: 551px !important;
+									}
+
+	img[src*="images/aektakapasi-tangled-p2p-uicolor.png"]	{
+								max-width: 716px !important;
+								}
+
+	img[src*="images/aektakapasi-tangled-p2p-copytext.png"]	{
+								max-width: 515px !important;
+								}
+
+
+	img[src*="images/aektakapasi-tangled-p2p-appdelegate.png"]	{
+									max-width: 676px !important;
+									}
+
+/* Loka Screen Collage Book Pages */
+	#lokabooks img.bookcover	{
+						width: 43.2vw; 
+						margin: 1em 0 0.7vw;
+						}
+
+	.screencollage.book a	{
+					margin: 0.5vw;
+					}
+							
+	.screencollage.book img {
+					width: 41.8vw; 
+					}
+
+
+/* Design Process Expand and Collapse */
+	.details label	{
+					font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+					text-transform: uppercase;
+					font-size: 1.1em;
+					display: inline-block;
+					color: #FFFFFF;
+					background-color: #9C958F;
+					-webkit-border-radius: 4px;
+					-moz-border-radius: 4px;
+					border-radius: 4px;
+					}
+
+	.details label:hover,
+	.details label:active,
+	.details label:hover:before,
+	.details label:active:before	{
+							background-color: #69635F !important;
+							-webkit-transition: all .3s ease;
+							-moz-transition: all .3s ease;
+							-ms-transition: all .3s ease;
+							-o-transition: all .3s ease;
+							transition: all .3s ease;
+							}
+	
+	.details input[type=checkbox] ~ figure,
+	.details input[type=checkbox] ~ div 	{ 
+						display: none;
+						}
+	
+	.details input[type=checkbox]:checked ~ figure,
+	.details input[type=checkbox]:checked ~ div 	{ 
+							display: block;													
+							}
+
+	.details input[type=checkbox] + label:before		{
+								content: 'View Details';
+								position: relative; 
+								padding: 7px 10px 4px 10px;  
+								top: 7px;  
+								font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+								text-transform: uppercase;
+								font-size: 1.1em;
+								color: #FFFFFF;
+								background-color: #9C958F; 
+								-webkit-border-radius: 4px;
+								-moz-border-radius: 4px; 
+								border-radius: 4px;
+								}
+														
+		.customerapp .details input[type=checkbox] + label:before	{
+										content: 'View Storyboards';
+										}
+
+		#tangled .first .details input[type=checkbox] + label:before	{
+										content: 'View History';
+										}
+																		
+																		
+		#tangledp2p .details input[type=checkbox] + label:before	{
+										content: 'View Process';
+										}
+
+	/* Removes the extra ghost height when checkbox is checked and the button is hidden */
+	.details input[type=checkbox]:checked + label + figure,
+	.details input[type=checkbox]:checked + label + div		{
+									position: relative;
+									top: -2em;
+									margin-bottom: -2em;
+									}
+	
+	.details input[type=checkbox]:checked + label:before	{
+								display: none;
+								margin-top: -28px; 
+								}
+
+	#playwork section	{
+						float: left;
+						width: 41vw;
+						height: 63vh;
+						margin: 40px 0;
+						padding: 2vw 4vw;
+						}
+						
+	#playwork section:first-child	{
+					border-right: 2px solid #EFEAE7;
+					}
+									
+	#playwork section:before	{
+					border: 0;
+					margin: 0 16px;
+					}
+
+
+/* CSS Slider */
+	/* All Links */
+		label,
+		a		{
+				cursor: pointer;
+				}
+	
+	/* Prevents Text Selection in Browser */
+		label, 
+		#active,
+		img		{ 
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				}
+	
+	/* Slider */
+		/* Slides Inner Positions */
+			#slide1:checked ~ #slides .inner	{
+								margin-left: 0; 
+								}
+												
+			#slide2:checked ~ #slides .inner	{
+								margin-left: -100%; /* - width of 1 slide if 5 slides */
+								}
+												
+			#slide3:checked ~ #slides .inner	{
+								margin-left: -200%; /* - width of 2 slides if 5 slides */
+								}
+												
+			#slide4:checked ~ #slides .inner	{
+								margin-left: -300%; /* - width of 3 slides if 5 slides */
+								}
+								
+			#slide5:checked ~ #slides .inner	{
+								margin-left: -400%; /* - width of 4 slides if 5 slides */
+								}
+												
+			#slide6:checked ~ #slides .inner	{
+								margin-left: -500%; /* - width of 4 slides if 5 slides */
+								}
+												
+			#slide7:checked ~ #slides .inner	{
+								margin-left: -600%; /* - width of 4 slides if 5 slides */
+								}
+												
+			#slide8:checked ~ #slides .inner	{
+								margin-left: -700%; /* - width of 4 slides if 5 slides */
+								}															
+
+			#slide9:checked ~ #slides .inner	{
+								margin-left: -800%; /* - width of 4 slides if 5 slides */
+								}	
+												
+			#slide10:checked ~ #slides .inner	{
+								margin-left: -900%; /* - width of 4 slides if 5 slides */
+								}	
+
+	
+		/* Slider */
+			#slides {
+					margin: 0;
+					background: ;
+					}
+					
+			/* Div Container 2 */
+				#overflow	{
+							width: 100%;
+							overflow: hidden;
+							}
+		
+			/* Slide Content */
+				.slide	{
+						position: relative;
+						}
+
+				.slide img	{
+							margin: 0;
+							max-width: 88vw;
+							height: auto; 
+							-webkit-user-select: none;  
+							-moz-user-select: none;    
+							-ms-user-select: none;      
+							user-select: none;
+							}
+		
+				/* Creates the 5 Slides and Hides 4 Off Screen Until Selected */
+					#slides .inner	{
+									width: 1000%; /* 5x width of 1 slide if 5 slides */
+									}
+			
+					#slides .slide	{
+							width: 10%; /* 100% divided by number of slides (5) */
+							float: left;
+							}
+														
+		
+			/* Navigation */
+				/* Hides Radio Buttons Used for the Slider Navigation */
+					.carousel input 	{
+								display: none;
+								}
+												
+				/* Navigation Container */
+					/* Container for Container - Need for horizontal scroll of controls */
+						#active-container	{
+									overflow: auto;
+									width: 100%;
+									background-color: #FFFFFF;
+									}
+						
+							.bottomborder	{
+									border-bottom: 2px solid #EFEAE7; 
+									}
+							
+					/* Container for Radio Buttons */
+						#active 	{
+								position: relative;
+								}
+									
+						#active	{
+								clear: left;
+								z-index: 2;
+								width: 96vw; /* accounts for scroll bar width vertical */
+								margin: 0 16px 16px; 
+								text-align: center; /* IMPLEMENT IF CONTROLS DON'T NEED TO SCROLL */
+								}
+					
+					/* First Level Tabs */ 																		
+						#active label 	{
+								text-align: center;
+								margin-bottom: 0;
+								cursor: pointer;
+								transition(all 0.2s ease-in-out);
+								width: auto;
+								color: #B8B8B8;
+								white-space: nowrap;
+								vertical-align: middle;
+								position: relative; /* For Text Label Under Image */
+								}
+								
+								#active label + label	{
+											margin-left: 4vw;	
+											}
+																							
+							/* For When Images are used instead of text labels */
+							#active label img	{
+										width: 20vw;
+										height: auto; 
+										object-fit: cover;
+										border-bottom: 2px solid #FFFFFF;
+										}
+								
+								label img:hover	{
+												-webkit-filter: brightness(80%);
+												-moz-filter: brightness(80%);
+												filter: brightness(80%);
+												-webkit-transition: all .3s ease;
+												-moz-transition: all .3s ease;
+												-ms-transition: all .3s ease;
+												-o-transition: all .3s ease;
+												transition: all .3s ease;
+												}
+																			
+							/* Selected - Current Navigation Label - When Images used instead of labels */
+							#slide1:checked ~ #active-container #active label:nth-child(1) img,
+							#slide2:checked ~ #active-container #active label:nth-child(2) img,
+							#slide3:checked ~ #active-container #active label:nth-child(3) img,
+							#slide4:checked ~ #active-container #active label:nth-child(4) img,
+							#slide5:checked ~ #active-container #active label:nth-child(5) img,
+							#slide6:checked ~ #active-container #active label:nth-child(6) img,
+							#slide7:checked ~ #active-container #active label:nth-child(7) img,
+							#slide8:checked ~ #active-container #active label:nth-child(8) img,
+							#slide9:checked ~ #active-container #active label:nth-child(9) img,
+							#slide10:checked ~ #active-container #active label:nth-child(10) img	{
+																border-bottom: 2px solid #9C958F;
+																}
+																					
+							#slide1:checked ~ #active-container #active label:nth-child(1) img:hover,
+							#slide2:checked ~ #active-container #active label:nth-child(2) img:hover,
+							#slide3:checked ~ #active-container #active label:nth-child(3) img:hover,
+							#slide4:checked ~ #active-container #active label:nth-child(4) img:hover,
+							#slide5:checked ~ #active-container #active label:nth-child(5) img:hover,
+							#slide6:checked ~ #active-container #active label:nth-child(6) img:hover,
+							#slide7:checked ~ #active-container #active label:nth-child(7) img:hover,
+							#slide8:checked ~ #active-container #active label:nth-child(8) img:hover,
+							#slide9:checked ~ #active-container #active label:nth-child(9) img:hover,
+							#slide10:checked ~ #active-container #active label:nth-child(10) img:hover	{													
+																	-webkit-filter: brightness(100%);
+																	-moz-filter: brightness(100%);
+																	filter: brightness(100%);
+																	}
+													
+		/* Animation */ 
+			#slides .inner 	{
+							-webkit-transform: translateZ(0);
+							-webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							-moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							-ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							-o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+						
+							-webkit-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							-moz-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							-ms-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							-o-transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+							transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+							}
+			
+			#slider	{
+					-webkit-transform: translateZ(0);
+					-webkit-transition: all 0.5s ease-out;
+					-moz-transition: all 0.5s ease-out;
+					-o-transition: all 0.5s ease-out;
+					transition: all 0.5s ease-out;
+					}
+			
+			#controls label	{
+							-webkit-transform: translateZ(0);
+							-webkit-transition: opacity 0.2s ease-out;
+							-moz-transition: opacity 0.2s ease-out;
+							-o-transition: opacity 0.2s ease-out;
+							transition: opacity 0.2s ease-out;
+							}
+			
+			#controls, 
+			#slides, 
+			#active,
+			#active label	{
+								-webkit-transform: translateZ(0);
+								-webkit-transition: all 0.5s ease-out;
+								-moz-transition: all 0.5s ease-out;
+								-o-transition: all 0.5s ease-out;
+								transition: all 0.5s ease-out;
+								}	
+
+/* Media Queries */
+/*  */
+@media only screen
+and (max-width: 1280px)	{
+	html	{
+			font-size: 20px;
+			}
+
+}
+
+/*  */
+@media only screen
+and (max-width: 912px)	{
+	html	{
+			font-size: 16px;
+			}
+		
+	#active	{
+			width: 96vw; /* accounts for scroll bar width vertical*/
+			}
+}
+	
+/* Tablet & Computer */
+@media only screen
+and (max-width: 768px)	{
+	
+	#active	{
+			width: 94.6vw;
+			}
+
+	/* For When Images are used instead of text labels */
+	#active label img	{
+				width: 40vw; 
+				}
+
+	img.appicon	{
+				width: 20vw;
+				}
+
+	.screencollage img.screenshot + img.screenshot,
+	.screencollage a + a 					{
+								margin-left: -1.4vw;
+								}
+													
+	#tangledp2p  .screencollage.three a:nth-child(1):after	{
+								right: 16px;
+								}
+				
+	/* Screen Shot Collage for 3 Images */
+		.screencollage.three a:first-child img.screenshot, 
+		.screencollage.three a:nth-child(3) img.screenshot	{
+									width: 26.5vw; 
+									}
+
+		/* For TangledP2P Section */
+				#tangledp2p .screencollage.three.overview img.screenshot + img.screenshot,
+				#tangledp2p .screencollage.three a + a					{
+													margin-left: -5vw;
+													}
+	
+				#tangledp2p .screencollage.three a:first-child img.screenshot, 
+				#tangledp2p .screencollage.three a:nth-child(3) img.screenshot	{
+												width: 22vw;
+												}
+																	
+			/* For TangledP2P #UIlibrary Section */
+			#tangledp2p #uilibrary .screencollage.three a + a	{
+										margin-left: -3.5vw;
+										}
+
+	/* Screen Shot Collage for 4 Images, 2 Groups */
+		.screencollage.four a:first-child img.screenshot,
+		.screencollage.four a:nth-child(4) img.screenshot	{
+									width: 18.5vw; 
+									}
+												
+	.screencollage.book a	{
+				display: block;
+				margin: 1em auto;
+				}
+
+	.screencollage.book img {
+				width: 88vw;
+				}
+}
+
+/* Mobile - Portrait and Landscape */ 
+@media only screen
+and (max-width: 480px)	{			
+
+	h3	{
+		font-size: 2.4em;
+		}
+	
+		#tangledp2pheading h3 span	{
+						font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+						font-size: 0.84em; /* the em is calculated from the h3 element */
+						}
+	#profile h1	{
+    			font-size: 28pt;
+				}
+				
+	#profile h2	{
+    			font-size: 19pt;
+				}
+
+	#profile p	{
+    			font-size: 14pt;
+    			line-height: 1.1em;
+				}
+	
+	#active	{
+			width: 90vw;
+			}
+
+		#active label + label	{
+					margin-left: 2vw;	
+					}
+
+	#tangledp2p  .screencollage.three a:nth-child(1):after	{
+								right: 10px;
+								}
+
+	.screencollage img.screenshot + img.screenshot,
+	.screencollage a + a 					{
+								margin-left: -3vw;
+								}
+
+	.screencollage.five img.screenshot + img.screenshot	{
+								margin-left: -3.9vw;
+								}	
+
+	/* Screen Shot Collage for 3 Images */
+		.screencollage.three img.screenshot:first-child, 
+		.screencollage.three img.screenshot:nth-child(3)	{
+									width: 27.5vw;
+									}
+
+	/* Screen Shot Collage for 4 Images, 2 Groups */
+		.screencollage.four a:first-child img.screenshot,
+		.screencollage.four a:nth-child(4) img.screenshot	{
+									width: 18.6vw;
+									}
+
+		.screencollage.four a:nth-child(3) img.screenshot	{
+									margin-left: 3vw !important;
+									}
+
+	section	{
+			margin: 48px 6vw;
+			}
+			
+	.slide img	{
+				margin: 0;
+				width: ;
+				max-width: 88vw;
+				height: auto; 
+				-webkit-user-select: none;  
+				-moz-user-select: none;    
+				-ms-user-select: none;      
+				user-select: none;
+				}
+
+}
