@@ -1069,8 +1069,9 @@
 										width: auto;
 										color: #B8B8B8;
 										white-space: nowrap;
-										vertical-align: middle;
+										/*vertical-align: middle;*/
 										position: relative; /* For Text Label Under Image */
+										display: inline-block;
 										}
 								
 								#active label + label	{
@@ -1083,6 +1084,7 @@
 												height: auto; /* 10vh */
 												object-fit: cover;
 												border-bottom: 2px solid #FFFFFF;
+												padding-bottom: 1.2em;
 												}
 								
 								label img:hover	{
@@ -1095,6 +1097,22 @@
 												-o-transition: all .3s ease;
 												transition: all .3s ease;
 												}
+												
+							#active label h6.h7 {
+												font-size: 0.9em;
+												margin: 0;
+												display: block;
+												position: absolute;
+												bottom: 0.6em;
+												text-align: center;
+												width: 100%;
+												}
+												
+								#active label h6.h7 span	{
+															font-size: 1em;
+															font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
+															}
+								
 																			
 							/* Selected - Current Navigation Label - When Images used instead of labels */
 							#slide1:checked ~ #active-container #active label:nth-child(1) img,
@@ -1178,6 +1196,9 @@ and (max-width: 1280px)	{
 			font-size: 20px;
 			}
 
+#active label h6.h7 {
+					bottom: 0.56em;
+					}
 }
 
 /*  */
@@ -1188,8 +1209,12 @@ and (max-width: 912px)	{
 			}
 		
 	#active	{
-			width: 96vw; /* TEMP TIL PORTFOLIO IMAGES FINISHED - accounts for scroll bar width vertical*/
+			width: 94vw; /* TEMP TIL PORTFOLIO IMAGES FINISHED - accounts for scroll bar width vertical*/
 			}
+	
+	#active label h6.h7 {
+						bottom: 0.7em;
+						}
 }
 	
 /* Tablet & Computer */
@@ -1294,12 +1319,20 @@ and (max-width: 480px)	{
 			}
 	
 	#active	{
-			width: 90vw;
+			width: 89vw;
 			}
 
 		#active label + label	{
 					margin-left: 5vw;	
 					}
+
+		#active label h6.h7	{
+							bottom: 0.64em;
+							}
+		
+		#active label h6.h7 span 	{
+									display: none;
+									}
 
 	#tangledp2p  .screencollage.three a:nth-child(1):after	{
 															right: 10px;
