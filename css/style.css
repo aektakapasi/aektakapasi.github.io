@@ -1076,18 +1076,18 @@
 								
 								#active label + label	{
 														margin-left: 4vw;	
-														}
+														}						
 																							
 							/* For When Images are used instead of text labels */
-							#active label img	{
-												width: 20vw; /* 20vw = (97.8vw - (3 x 4vw)) / 4   OR  42vw or 28vw = (97.8vw - (2 x 4vw)) / 3 */
-												height: auto; /* 10vh */
-												object-fit: cover;
-												border-bottom: 2px solid #FFFFFF;
-												padding-bottom: 1.2em;
+							#active label img.thumbnail	{
+														width: 20vw; /* 20vw = (97.8vw - (3 x 4vw)) / 4   OR  42vw or 28vw = (97.8vw - (2 x 4vw)) / 3 */
+														height: auto; /* 10vh */
+														object-fit: cover;
+														border-bottom: 2px solid #FFFFFF;
+														padding-bottom: 1.2em;
 												}
 								
-								label img:hover	{
+								label img.thumbnail:hover	{
 												-webkit-filter: brightness(80%);
 												-moz-filter: brightness(80%);
 												filter: brightness(80%);
@@ -1112,19 +1112,18 @@
 															font-size: 1em;
 															font-family: 'Questrial', Arial, Helvetica, sans-serif !important;
 															}
-								
-																			
+
 							/* Selected - Current Navigation Label - When Images used instead of labels */
-							#slide1:checked ~ #active-container #active label:nth-child(1) img,
-							#slide2:checked ~ #active-container #active label:nth-child(2) img,
-							#slide3:checked ~ #active-container #active label:nth-child(3) img,
-							#slide4:checked ~ #active-container #active label:nth-child(4) img,
-							#slide5:checked ~ #active-container #active label:nth-child(5) img,
-							#slide6:checked ~ #active-container #active label:nth-child(6) img,
-							#slide7:checked ~ #active-container #active label:nth-child(7) img,
-							#slide8:checked ~ #active-container #active label:nth-child(8) img,
-							#slide9:checked ~ #active-container #active label:nth-child(9) img,
-							#slide10:checked ~ #active-container #active label:nth-child(10) img	{
+							#slide1:checked ~ #active-container #active label:nth-child(1) img.thumbnail,
+							#slide2:checked ~ #active-container #active label:nth-child(2) img.thumbnail,
+							#slide3:checked ~ #active-container #active label:nth-child(3) img.thumbnail,
+							#slide4:checked ~ #active-container #active label:nth-child(4) img.thumbnail,
+							#slide5:checked ~ #active-container #active label:nth-child(5) img.thumbnail,
+							#slide6:checked ~ #active-container #active label:nth-child(6) img.thumbnail,
+							#slide7:checked ~ #active-container #active label:nth-child(7) img.thumbnail,
+							#slide8:checked ~ #active-container #active label:nth-child(8) img.thumbnail,
+							#slide9:checked ~ #active-container #active label:nth-child(9) img.thumbnail,
+							#slide10:checked ~ #active-container #active label:nth-child(10) img.thumbnail	{
 																									border-bottom: 2px solid #9C958F;
 																									}
 																					
@@ -1142,6 +1141,43 @@
 																										-moz-filter: brightness(100%);
 																										filter: brightness(100%);
 																										}
+																										
+							#active label:nth-child(1) img.leftarrow	{
+																		display: block;
+																		position: absolute;
+																		left: -48px;
+																		bottom: 35%;
+																		width: 44px;
+																		}
+							
+							#active label:nth-child(2) img.rightarrow	{									
+																		display: block;
+																		position: absolute;
+																		right: -48px;
+																		bottom: 35%;
+																		width: 44px;
+																		}
+							
+							#slide1:checked ~ #active-container #active label:nth-child(1) img.leftarrow 	{
+																											opacity: 0;
+																											}
+
+							#slide2:checked ~ #active-container #active label:nth-child(2) img.rightarrow 	{
+																											opacity: 0;
+																											}	
+							
+							#active label img.leftarrow:hover,
+							#active label img.rightarrow:hover	{
+																-webkit-filter: brightness(30%);
+																-moz-filter: brightness(30%);
+																filter: brightness(30%);
+																-webkit-transition: all .3s ease;
+																-moz-transition: all .3s ease;
+																-ms-transition: all .3s ease;
+																-o-transition: all .3s ease;
+																transition: all .3s ease;
+																}																			
+																										
 													
 		/* Animation */ 
 			#slides .inner 	{
@@ -1189,6 +1225,7 @@
 								}	
 
 /* Media Queries */
+
 /*  */
 @media only screen
 and (max-width: 1280px)	{
@@ -1196,9 +1233,9 @@ and (max-width: 1280px)	{
 			font-size: 20px;
 			}
 
-#active label h6.h7 {
-					bottom: 0.56em;
-					}
+	#active label h6.h7 {
+						bottom: 0.56em;
+						}
 }
 
 /*  */
@@ -1226,9 +1263,21 @@ and (max-width: 768px)	{
 			}
 
 	/* For When Images are used instead of text labels */
-	#active label img	{
-						width: 40vw; /* 20vw = (97.8vw - (3 x 4vw)) / 4   OR  28vw = (97.8vw - (2 x 4vw)) / 3 */
-						}
+	#active label img.thumbnail	{
+								width: 40vw; /* 20vw = (97.8vw - (3 x 4vw)) / 4   OR  28vw = (97.8vw - (2 x 4vw)) / 3 */
+								}
+
+	#active label:nth-child(1) img.leftarrow	{
+												left: -48px;
+												bottom: 35%;
+												width: 44px;
+												}
+							
+	#active label:nth-child(2) img.rightarrow	{									
+												right: -48px;
+												bottom: 35%;
+												width: 44px;
+												}
 
 	img.appicon	{
 				width: 20vw;
@@ -1333,6 +1382,23 @@ and (max-width: 480px)	{
 		#active label h6.h7 span 	{
 									display: none;
 									}
+
+	/* For When Images are used instead of text labels */
+	#active label img.thumbnail	{
+								width: 35vw; /* 20vw = (97.8vw - (3 x 4vw)) / 4   OR  28vw = (97.8vw - (2 x 4vw)) / 3 */
+								}
+
+	#active label:nth-child(1) img.leftarrow	{
+												left: -36px;
+												bottom: 35%;
+												width: 36px;
+												}
+							
+	#active label:nth-child(2) img.rightarrow	{									
+												right: -36px;
+												bottom: 35%;
+												width: 36px;
+												}
 
 	#tangledp2p  .screencollage.three a:nth-child(1):after	{
 															right: 10px;
