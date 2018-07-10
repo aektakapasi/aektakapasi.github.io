@@ -822,7 +822,7 @@
 
 /* Loka Screen Collage Book Pages */
 	#lokabooks img.bookcover	{
-								width: 43.2vw; /* TEMP */
+								/*width: 43.2vw;*/ /* TEMP */
 								margin: 1em 0 0.7vw;
 								}
 
