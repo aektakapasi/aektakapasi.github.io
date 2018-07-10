@@ -1335,6 +1335,7 @@ and (max-width: 768px)	{
 							margin: 1em auto;
 							}
 
+	#lokabooks img.bookcover,
 	.screencollage.book img {
 							width: 88vw;
 							}
